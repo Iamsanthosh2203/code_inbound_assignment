@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Survey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="avatar-sk.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex min-h-screen justify-center items-center flex-col gap-4">
+      <h1 class="text-4xl font-bold text-white">Customer Survey</h1>
+      <!-- Form Container 1 -->
+      <form class="form satisfied">
+        <div>
+          <p class="text-xl mb-2">
+            1. How satisfied are you with our products?
+          </p>
+          <div class="flex gap-4 justify-center">
+            <!-- Radio Values -->
+            <!-- 1 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="1"
+                  name="satisfied"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="1"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="1" class="text-xl">1</label>
+            </div>
+
+            <!-- 2 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="2"
+                  name="satisfied"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="2"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="2" class="text-xl">2</label>
+            </div>
+
+            <!-- 3 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="3"
+                  name="satisfied"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="3"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="3" class="text-xl">3</label>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="4"
+                  name="satisfied"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="4"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="4" class="text-xl">4</label>
+            </div>
+
+            <!-- 5 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="5"
+                  name="satisfied"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="5"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="5" class="text-xl">5</label>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <form class="form none prices">
+        <div>
+          <p class="text-xl mb-2">
+            2. How fair are the prices compared to similar retailers?
+          </p>
+          <div class="flex gap-4 justify-center">
+            <!-- Radio Values -->
+            <!-- 1 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="1"
+                  name="prices"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="1"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="1" class="text-xl">1</label>
+            </div>
+
+            <!-- 2 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="2"
+                  name="prices"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="2"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="2" class="text-xl">2</label>
+            </div>
+
+            <!-- 3 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="3"
+                  name="prices"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="3"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="3" class="text-xl">3</label>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="4"
+                  name="prices"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="4"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="4" class="text-xl">4</label>
+            </div>
+
+            <!-- 5 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="5"
+                  name="prices"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="5"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="5" class="text-xl">5</label>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- Form Conatiner 3 -->
+      <form class="form none purchase">
+        <div>
+          <p class="text-xl mb-2">
+            3. How satisfied are you with the value for money of your purchase?
+          </p>
+          <div class="flex gap-4 justify-center">
+            <!-- Radio Values -->
+            <!-- 1 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="1"
+                  name="purchase"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="1"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="1" class="text-xl">1</label>
+            </div>
+
+            <!-- 2 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="2"
+                  name="purchase"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="2"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="2" class="text-xl">2</label>
+            </div>
+
+            <!-- 3 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="3"
+                  name="purchase"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="3"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="3" class="text-xl">3</label>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="4"
+                  name="purchase"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="4"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="4" class="text-xl">4</label>
+            </div>
+
+            <!-- 5 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="5"
+                  name="purchase"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="5"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="5" class="text-xl">5</label>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- Form Conatiner 4 -->
+      <form class="form none recommend">
+        <div>
+          <p class="text-xl mb-2">
+            4. On a scale of 1-10 how would you recommend us to your friends and
+            family?
+          </p>
+          <div class="flex gap-4 justify-center">
+            <!-- Radio Values -->
+            <!-- 1 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="1"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="1"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="1" class="text-xl">1</label>
+            </div>
+
+            <!-- 2 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="2"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="2"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="2" class="text-xl">2</label>
+            </div>
+
+            <!-- 3 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="3"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="3"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="3" class="text-xl">3</label>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="4"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="4"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="4" class="text-xl">4</label>
+            </div>
+
+            <!-- 5 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="5"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="5"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="5" class="text-xl">5</label>
+            </div>
+
+            <!-- 6 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="6"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="6"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="6" class="text-xl">6</label>
+            </div>
+
+            <!-- 7 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="7"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="7"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="7" class="text-xl">7</label>
+            </div>
+
+            <!-- 8 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="8"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="8"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="8" class="text-xl">8</label>
+            </div>
+
+            <!-- 9 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="9"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="9"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="9" class="text-xl">9</label>
+            </div>
+
+            <!-- 10 -->
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative"
+              >
+                <input
+                  aria-labelledby="label2"
+                  type="radio"
+                  id="10"
+                  name="recommend"
+                  class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none"
+                  value="10"
+                />
+                <div
+                  class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"
+                ></div>
+              </div>
+              <label for="10" class="text-xl">10</label>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <form class="none text">
+        <div class="flex flex-col items-center gap-2">
+          <label for="">What could we do to improve our service?</label>
+        </div>
+        <textarea name="" id="" cols="45" rows="10"></textarea>
+      </form>
+      <div class="mt-5 flex gap-4 justify-around">
+        <button id="pre" class="p-3 rounded-xl bg-red-500 text-white buttons">
+          Previous
+        </button>
+        <button id="next" class="p-3 rounded-xl bg-blue-500 text-white buttons">
+          Next
+        </button>
+
+        <button
+          id="submit"
+          class="p-3 rounded-xl bg-blue-500 text-white buttons"
+        >
+          Submit
+        </button>
+      </div>
+
+      <div class="thanks none">
+        <p class="text-lg">Thank You For Your Time !</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

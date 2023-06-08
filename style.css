@@ -1,0 +1,44 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background: hsla(42, 87%, 52%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(42, 87%, 52%, 1) 0%,
+    hsla(24, 100%, 66%, 1) 49%,
+    hsla(358, 78%, 62%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(42, 87%, 52%, 1) 0%,
+    hsla(24, 100%, 66%, 1) 49%,
+    hsla(358, 78%, 62%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(42, 87%, 52%, 1) 0%,
+    hsla(24, 100%, 66%, 1) 49%,
+    hsla(358, 78%, 62%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#efaf1b", endColorstr="#ff9954", GradientType=1 );
+}
+
+.checkbox:checked {
+  border: none;
+}
+.checkbox:checked + .check-icon {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
