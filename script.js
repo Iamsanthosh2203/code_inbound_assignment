@@ -54,7 +54,8 @@ function checkValues() {
     !pricesOption ||
     !purchaseOption ||
     !textOption ||
-    !recOption
+    !recOption ||
+    textOption.value == ""
   ) {
     alert("Please fill in all the fields.");
     return false;
